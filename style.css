@@ -1,0 +1,447 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+body, html {
+    height: 100%;
+}
+
+/* navigation */
+.navbar {
+  background-color: #f2e9e4 !important;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* Start Headers */
+h1, h2, h3, h5 {
+  font-family: Roboto, Sans-Serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2, h3, h5 {
+  color: #22223b;
+}
+
+/* Paragraphs and lists */
+p, li {
+  font-family: optima, monospace;
+}
+
+/* The home page hero image */
+#hero-image-home {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* home hero button */
+.btn {
+  font-size: 20px;
+  color: #f2e9e4;
+  background-color: #4a4e69;
+  border: solid;
+  border-color: #f2e9e4;
+  border-width: 5px;
+}
+
+/* start cardio hero image */
+ #hero-image-cardio {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/cardio/shoes.jpg");
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* strength-training hero image */
+#hero-image-strength {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/strength_training/weights.jpg");
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* yoga hero image */
+#hero-image-yoga {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/yoga/yoga.jpg");
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* nutrition hero image */
+#hero-image-nutrition {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/nutrition/food.jpg");
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* wellness hero image */
+#hero-image-wellness {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("images/wellness/lake.jpg");
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* hero text */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2e9e4;
+  font-size: 30px;
+}
+
+/* thumbnail image */
+.img-thumbnail:hover {
+  opacity: 0.7;
+}
+
+/* home page */
+#cards {
+  background-color: #f2e9e4;
+  color: #22223b;
+  padding: 20px;
+}
+
+.featured {
+  background-color: #c9ada7;
+  color: #22223b;
+}
+
+/* cardio page */
+#intro1 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline-style: solid;
+  outline-color: #f2e9e4;
+  outline-width: 5px;
+  background-color: #c9ada7;
+  color: #22223b;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.list1{
+  background-color: #f2e9e4;
+  color: #22223b;
+  border-color: #c9ada7;
+  border-width: 10px;
+  padding: 10px;
+}
+
+.accordion-body1 {
+  background-color: #c9ada7;
+  color: #22223b;
+  padding: 10px;
+}
+
+.button1 {
+  background-color: #f2e9e4;
+  color: #22223b;
+}
+
+.accordion-item1 {
+  background-color: #f2e9e4;
+  border-color: #22223b;
+}
+
+.cardio {
+  background-color: #c9ada7;
+  border-width: 5px;
+  border-color: #f2e9e4;
+}
+
+#cardio-cards {
+  background-color: #c9ada7;
+  color: #22223b;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card-title {
+  color: #22223b;
+}
+
+/* strength training page */
+#intro2 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline-style: solid;
+  outline-color: #4a4e69;
+  outline-width: 5px;
+  background-color: #9a8c98;
+  color: #22223b;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.list2 {
+  background-color: #9a8c98;
+  color: #22223b;
+  border-color: #4a4e69;
+  border-width: 10px;
+  padding: 10px;
+}
+
+.accordion-body2 {
+  background-color: #4a4e69;
+  color: #f2e9e4;
+  padding: 10px;
+}
+
+.button2 {
+  color: #22223b;
+}
+
+.strength {
+  background-color: #9a8c98;
+}
+
+#strengthcards {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* yoga page */
+#intro3 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline-style: solid;
+  outline-color: #c9ada7;
+  outline-width: 5px;
+  background-color: #f2e9e4;
+  color: #22223b;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.list3 {
+  background-color: #f2e9e4;
+  color: #22223b;
+  border-color: #c9ada7;
+  border-width: 10px;
+  padding: 10px;
+}
+
+#benefits3 {
+  margin-bottom: 30px;
+  background-color: #f2e9e4;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.accordion-body3 {
+  background-color: #f2e9e4;
+  padding: 10px;
+  color: #22223b;
+}
+
+.accordion-item3 {
+  background-color: #c9ada7;
+}
+
+.button3 {
+  background-color: #c9ada7;
+  color: #22223b;
+}
+
+#yogaaccordion {
+  padding-bottom: 10px;
+}
+
+.yoga {
+  background-color: #f2e9e4;
+  border-color: #c9ada7;
+  border-width: 5px;
+}
+
+#yogacard {
+  background-color: #c9ada7;
+  color: #22223b;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* nutrition page */
+#intro4 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline-style: solid;
+  outline-color: #9a8c98;
+  outline-width: 5px;
+  background-color: #f2e9e4;
+  color: #22223b;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.list4 {
+  background-color: #f2e9e4;
+  color: #22223b;
+  border-color: #9a8c98;
+  border-width: 10px;
+  padding: 10px;
+}
+
+.accordion-item4 {
+  background-color: #9a8c98;
+}
+
+.button4 {
+  background-color: #9a8c98;
+  color: #22223b;
+}
+
+.accordion-body4 {
+  background-color: #f2e9e4;
+  padding: 10px;
+  color: #22223b;
+}
+
+#nutritionaccordion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: solid;
+  border-bottom-color: #9a8c98;
+  border-bottom-width: 10px;
+}
+
+.nutrition1 {
+  background-color: #f2e9e4;
+}
+
+.nutrition2 {
+  background-color: #9a8c98;
+}
+
+.nutrition3 {
+  background-color: #4a4e69;
+  color: #f2e9e4;
+}
+
+#water {
+  color: #f2e9e4;
+}
+
+#nutritioncard {
+  margin-bottom: 30px;
+}
+
+/* mental wellness page */
+#intro5 {
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline-style: solid;
+  outline-color: #4a4e69;
+  outline-width: 5px;
+  background-color: #f2e9e4;
+  color: #22223b;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.accordion-body5 {
+  background-color: #f2e9e4;
+  padding: 10px;
+  color: #22223b;
+}
+
+.accordion-item5 {
+  background-color: #4a4e69;
+}
+
+.button5 {
+  background-color: #4a4e69;
+  color: #f2e9e4;
+}
+
+.caption {
+  color: #f2e9e4;
+  background-color: #22223b;
+}
+
+#techniques {
+  background-color: #f2e9e4;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* contact us page */
+#form {
+  background-color: #C9ADA7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#email:link {
+  color: #22223B;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#email:hover {
+  color: #C9ADA7;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#email:active {
+  color: #C9ADA7;
+  background-color: transparent;
+  text-decoration: underline;
+
+ 
